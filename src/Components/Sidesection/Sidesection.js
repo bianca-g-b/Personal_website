@@ -1,6 +1,6 @@
 import "./Sidesection.css";
-import github from "../Images/github-mark-white.png";
-import linkedin from "../Images/linkedin-white.png";
+import github from "../Images/icons8-github-128.png";
+import linkedin from "../Images/icons8-linkedin-125.png";
 
 
 export default function Sidesection() {

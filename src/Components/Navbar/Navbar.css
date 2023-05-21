@@ -101,4 +101,23 @@
        border-top: 20px solid #000;
        clear: both;
   } */
+
  
+ 
+    @media (max-width: 1750px) {
+      .navbar-brand {
+        font-size: 40px !important;
+      }
+      }
+
+    @media (max-width: 1450px) {
+      .navbar-brand {
+        font-size: 35px !important;
+      }
+      }
+
+    @media (max-width: 1215px) {
+      .navbar-brand {
+        font-size: 30px !important;
+      }
+      }

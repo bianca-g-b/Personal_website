@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar1 from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from '../Home/Home';
 import About from '../About/About';
@@ -10,6 +11,7 @@ function App() {
     <div className="app-section">
       <Navbar1 />
       <Sidesection />
+      <Footer />
        <div className="static-panel">
     {/* Routes */}
     <Routes>

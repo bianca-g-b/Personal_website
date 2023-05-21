@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  background-color: black;
+  color: #8adbdb;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+}
+
+/*The sidebar element will ot be displayed on small screens*/
+@media (min-width: 1026px) {
+    .footer {
+      display: none;
+    }
+    }
