@@ -1,0 +1,45 @@
+
+body {
+  background-image: url("../Images/background.jpg");
+  background-attachment: fixed;
+}
+
+/*Make navebar stay on page even when scrolling down*/ 
+/* .navbar-all {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+/*Doesn't really change anything*/
+.app-section {
+  position:absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.static-panel {
+  margin-left: 20%;
+  margin-right: 20%;
+} 
+
+
+/*Adjustments for small screen displays*/
+@media (max-width: 500px) {
+  .app-section {
+      margin-top: 25%;
+  }
+
+  }
+
+
+@media (max-width: 1025px) {
+  .static-panel {
+      margin-left: 1%;
+      margin-right: 1%;
+  }
+}
+
+/*make footer element to be displayed when resolution is small*/
+
+

@@ -1,0 +1,40 @@
+.sidebar-full {
+    background: transparent;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+
+    display:flex;
+    justify-content: flex-end; ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.github {
+    margin-bottom: 15%;
+    margin-top: 250%;
+    
+
+}
+
+.linkedin {
+    margin-bottom: 125%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-right: 5px solid black;
+}
+
+
+/*The sidebar element will ot be displayed on small screens*/
+@media (max-width: 1025px) {
+    .sidebar-full {
+      display: none;
+    }
+    }

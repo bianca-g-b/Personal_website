@@ -1,0 +1,104 @@
+
+
+.navbar-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Genos;
+}
+
+
+.navbar-menu {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center;
+    height: 4rem;
+    top: 0;
+    left: 0;
+    width: 90%;
+    font-size: 30px;
+    padding-right: 0 !important;
+    padding-left: 15px !important;
+}
+
+:-webkit-any-link {
+    /* color: #8adbdb; */
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+    font-size: 40px;
+    color:#8adbdb;
+  }
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Genos;
+    font-size: 40px;
+  }
+
+  .me-auto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Genos;
+    font-size: 40px;
+    width: 100%;
+    background-color: black;
+    padding-right:0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .filler {
+    display:flex;
+    width: 120%
+  }
+
+  .fixed-top {
+    top: 2% !important; ;
+  }
+
+  #navbarScrollingDropdown {
+    color:#8adbdb;
+  }
+
+  .dropdown-menu {
+    color:#8adbdb !important;
+    background-color: black !important;
+  }
+  .dropdown-item {
+    color:#8adbdb !important;
+  }
+.dropdown-item:hover {
+    color: #0d2e42 !important;
+    background-color: #8adbdb !important;
+  }
+  .nav-link:hover {
+    color: #3587b6 !important;
+  }
+  .navbar-brand:hover{
+    color: #3587b6 !important;
+  }
+
+  /* .dropdown-toggle:after {
+        content: '' !important;
+       position: absolute !important;
+       left: 18px !important;
+       top: 50px !important;
+       width: 0 !important;
+       height: 0 !important;
+       border-left: 20px solid transparent;
+       border-right: 20px solid transparent;
+       border-top: 20px solid #000;
+       clear: both;
+  } */
+ 

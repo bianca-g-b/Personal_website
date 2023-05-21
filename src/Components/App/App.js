@@ -1,0 +1,24 @@
+import './App.css';
+import Navbar1 from '../Navbar/Navbar';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from '../Home/Home';
+import About from '../About/About';
+import Sidesection from '../Sidesection/Sidesection';
+
+function App() {
+  return (
+    <div className="app-section">
+      <Navbar1 />
+      <Sidesection />
+       <div className="static-panel">
+    {/* Routes */}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+    </div>
+    </div>
+  );
+}
+
+export default App;
