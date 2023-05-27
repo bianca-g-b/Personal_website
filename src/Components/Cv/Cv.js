@@ -1,5 +1,6 @@
 import "./Cv.css";
-// "../Docs/Bianca_Buha_CV.pdf"
+import github from "../Images/icons8-github-32.png";
+import linkedin from "../Images/icons8-linkedin-31.png";
 
 function Cv() {
   
@@ -12,16 +13,24 @@ function Cv() {
         <div className="cv-intro content-flex">
         <h2>Bianca Buha</h2>
 <h4>Junior Software Developer</h4>
+<br/>
 <p>bianca@biancabuha.com</p>
 <p>Milton Keynes, UK (willing to relocate)</p>
-<a href="https://www.linkedin.com/in/biancabuha" target="_blank" rel="noreferrer">LinkedIn Profile</a>
-<a href="https://github.com/bianca-g-b" target="_blank" rel="noreferrer">GitHub Profile</a>
+<div>
+<a className="github" href="https://github.com/bianca-g-b" target="_blank" rel="noreferrer">
+            <img src={github} alt="GitHub"/>
+            </a>
+            <a className="linkedin" href="https://www.linkedin.com/in/biancabuha" target="_blank" rel="noreferrer">
+            <img src={linkedin} alt="GitHub"/>
+            </a>
+            </div>
         </div>
 
         <div className="cv-content content-flex">
 
 <div className="cv-profile content-flex">
 <h3 className="section-title">PROFILE</h3>
+<br/>
 <p>
 I am a passionate junior software developer, currently enrolled in the School of Code Bootcamp.
 I am excited to join a software development team and apply my new skills to real-world projects.
@@ -29,9 +38,11 @@ With a strong drive for problem-solving and a commitment to continuous learning,
 fellow professionals to create innovative software solutions.
 </p>
 </div>
+<br/>
 
 <div className="cv-skills content-flex">
 <h3 className="section-title">SKILLS</h3>
+<br/>
 <ul className="skills-list content-flex">
 <li>JavaScript</li>
 <li>Python</li>
@@ -51,9 +62,11 @@ fellow professionals to create innovative software solutions.
 <li>Agile</li>
 </ul>
 </div>
+<br/>
 {/* Experience - all */}
 <div className="experience-all">
 <h3 className="section-title">PROFESSIONAL EXPERIENCE</h3>
+<br/>
 {/* Experience - School of code */}
 <div className="soc">
 <h4>Full Stack Software Developer</h4>
@@ -69,6 +82,7 @@ work to industry best practices and standards.</li>
 employing these tools to develop robust and responsive applications.</li>
   <li>Weekly hackathons to implement the topics covered in the week, using Agile methodologies.</li>
 </ul>
+<br/>
 <h5>PROJECTS</h5>
 <h6>ONE WEEK TEAM PROJECT - Building an app in React that will help students with their learning</h6>
 <ul>
@@ -82,6 +96,7 @@ thorough research, I discovered the 'react-router-dom' package as the ideal solu
 efficiently implemented the routing system, enabling navigation between different components</li>
 </ul>
 </div>
+<br/>
 {/* Experience - Santander */}
 <div className="santander">
 <h4>Customer Service Advisor</h4>
@@ -98,6 +113,7 @@ empathetically understand client needs, addressing concerns promptly and providi
 protocols, ensuring the privacy and protection of customer accounts and transactions.</li>
 </ul>
 </div>
+<br/>
 {/* Experience - Classics */}
 <div className="classics">
   <h4>Customer Service Advisor</h4>
@@ -115,6 +131,7 @@ guidelines.</li>
 support documents.</li>
 </ul>
 </div>
+<br/>
 {/* Experience - Acting */}
 <div className="acting">
 <h4>Theatre Performer / Actor</h4>
@@ -133,12 +150,14 @@ performances.</li>
 </ul>
 </div>
 </div>
+<br/>
 {/* Experience end */}
 
 
 {/* Education */}
 <div className="education">
 <h3 className="section-title">EDUCATION</h3>
+<br/>
 <h4>Bachelor of Arts - Acting Studies</h4>
 <div className="location-dates">
 <h5>George Enescu National University of Arts, Faculty of
@@ -146,11 +165,13 @@ Theatre</h5>
 <h5>2007 - 2010</h5>
 </div>
 </div>
+<br/>
 {/* Education end*/}
 
 
 <div className="interests-hobbies">
 <h3 className="section-title">INTERESTS AND HOBBIES</h3>
+<br/>
 <p>I recently started attending Tech meetups, such as React Advanced London. It's a great opportunity for
 networking and meeting people in the industry, and I'm planning to doing that on a regular basis.<br/>
 In my spare time, I like exploring new places, walks in nature, cooking foods from scratch or growing plants.<br/>

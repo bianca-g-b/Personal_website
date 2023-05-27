@@ -6,10 +6,13 @@ import Home from '../Home/Home';
 import About from '../About/About';
 import Sidesection from '../Sidesection/Sidesection';
 import Cv from "../Cv/Cv"
+import ScrollToTop from '../ScrollToTop';
+import Contact from '../Contact/Contact';
 
 function App() {
   return (
     <div className="app-section">
+      <ScrollToTop />
       <Navbar1 />
       <Sidesection />
       <Footer />
@@ -19,9 +22,10 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path ="/cv" element = {<Cv />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     </div>
-    </div>
+     </div>
   );
 }
 

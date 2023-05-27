@@ -40,6 +40,12 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .about-text-content  {
+    margin-bottom: 50% !important;
+  }
+  }
+
 /*make footer element to be displayed when resolution is small*/
 
 

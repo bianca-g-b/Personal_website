@@ -79,6 +79,9 @@ h2,h3 {
 
 @media (max-width: 500px) {
     .cv-content {
-      margin-bottom: 20%;
+      margin-bottom: 30%;
+    }
+    .cv-profile-all {
+        margin-bottom: 20%;
     }
     }

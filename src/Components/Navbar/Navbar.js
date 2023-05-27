@@ -11,11 +11,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navbar1() {
     return (
         <Navbar bg="custom" expand="lg" 
-        fixed="top" role="navigation">
+        fixed="top" 
+        // sticky="top" to make the navbar disappear when scrolling down
+        role="navigation">
             <Container fluid className="navbar-menu">
             <Navbar.Brand style={{ color: '#8adbdb', fontSize: "45px"}}  >Bianca Buha</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
+            <Navbar.Collapse id="navbarScroll" style={{ color: 'black' }}>
             <div className="filler"></div>
             <Nav
             className="me-auto my-2 my-lg-0"
@@ -24,14 +26,14 @@ function Navbar1() {
                 <Nav.Link as={NavLink} to="/" style={{ color: '#8adbdb' }}>HOME</Nav.Link>
                 <Nav.Link as={NavLink} to="/about" style={{ color: '#8adbdb' }}>ABOUT</Nav.Link>
                 <Nav.Link as={NavLink} to="/cv" style={{ color: '#8adbdb' }}>CV</Nav.Link>
-                <NavDropdown as={NavLink} to="/projects" style={{ color: '#8adbdb' }} title="PROJECTS" id="navbarScrollingDropdown">
-                    <NavDropdown.Item as={NavLink} to="/projects/project1">Project 1</NavDropdown.Item>
+                <NavDropdown style={{ color: '#8adbdb' }} title="PROJECTS" id="navbarScrollingDropdown">
+                    <NavDropdown.Item as={NavLink} to="/projects/project1">Personal</NavDropdown.Item>
                     <NavDropdown.Item as={NavLink} to="/projects/project2">
-                    Project 2
+                    School of Code Teams
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={NavLink} to="/projects/project3">
+                    {/* <NavDropdown.Item as={NavLink} to="/projects/project3">
                     Project 3
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                 </NavDropdown>
                 <Nav.Link as={NavLink} to="/contact" style={{ color: '#8adbdb' }}>CONTACT</Nav.Link>
         </Nav>

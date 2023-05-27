@@ -12,9 +12,22 @@
     margin-left: 2%;
     text-align: justify;
     
+    
 }
 
 h2 {
     display: flex;
     margin-top: 3%;
 }
+
+@media (max-width: 500px) {
+    .about-text-content  {
+      margin-bottom: 50%;
+    }
+    }
+
+@media (max-height: 600px) {
+    .about-text-content  {
+        margin-bottom: 15%;
+    }
+    }
