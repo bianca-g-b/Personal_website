@@ -13,8 +13,10 @@
     text-align: justify;
 }
 
-h2 {
+.about-text-content {
     display: flex;
     margin-top: 3%;
+    color: rgb(126, 212, 213);
+    text-align: justify;
 }
 

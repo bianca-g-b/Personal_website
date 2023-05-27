@@ -1,0 +1,84 @@
+.content-flex {
+    display: flex;
+}
+
+.main-cv-area {
+    display:flex;
+    /* background-color:blueviolet; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* CV intro */
+.cv-intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+
+/*All content besides intro*/
+.cv-content {
+    flex-direction: column;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cv-skills {
+    flex-direction: column;
+}
+.skills-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-profile-all {
+    background-color: black;
+    color: rgb(126, 212, 213);;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    
+    
+}
+.cv-content {
+    border-radius: 25px;
+    margin-bottom: 10%;
+}
+.cv-profile {
+    background-color: black;
+    color: rgb(126, 212, 213);;
+    display: flex;
+    flex-direction: column; 
+}
+
+.empty-area {
+    display: flex;
+    margin-top: 29%;
+}
+
+h2,h3 {
+    display: block;
+    color: rgb(126, 212, 213);;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Add top and bottom borders to section titles */
+.section-title {
+    border-top: 1px solid rgb(126, 212, 213);;
+    border-bottom: 1px solid rgb(126, 212, 213);;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .cv-content {
+      margin-bottom: 20%;
+    }
+    }

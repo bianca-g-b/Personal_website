@@ -4,7 +4,7 @@ import "./Home.css";
 export default function Home() {
     return(
     <div className="short-presentation">
-        <h2 className="text-content">Hello, my name is Bianca Buha.
+        <h2 className="about-text-content">Hello, my name is Bianca Buha.
         <br/><br/>
         I am an trainee software developer, with a 
         <br/>background in acting.
