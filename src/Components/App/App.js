@@ -30,3 +30,7 @@ function App() {
 }
 
 export default App;
+
+// "start": "react-scripts start",
+// on line 24 on package.json
+//"start": "node app.js",
