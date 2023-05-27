@@ -24,11 +24,10 @@ function Navbar1() {
             // style={{ maxHeight: '100px' }}
             navbarScroll>
                 <Nav.Link as={NavLink} to="/" style={{ color: '#8adbdb' }}>HOME</Nav.Link>
-                <Nav.Link as={NavLink} to="/about" style={{ color: '#8adbdb' }}>ABOUT</Nav.Link>
                 <Nav.Link as={NavLink} to="/cv" style={{ color: '#8adbdb' }}>CV</Nav.Link>
                 <NavDropdown style={{ color: '#8adbdb' }} title="PROJECTS" id="navbarScrollingDropdown">
-                    <NavDropdown.Item as={NavLink} to="/projects/project1">Personal</NavDropdown.Item>
-                    <NavDropdown.Item as={NavLink} to="/projects/project2">
+                    <NavDropdown.Item as={NavLink} to="/projects/personal">Personal</NavDropdown.Item>
+                    <NavDropdown.Item as={NavLink} to="/projects/team">
                     School of Code Teams
                     </NavDropdown.Item>
                     {/* <NavDropdown.Item as={NavLink} to="/projects/project3">

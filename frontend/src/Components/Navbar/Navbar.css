@@ -53,6 +53,7 @@
     padding-right:0;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    border: 1px solid #364d4d;
   }
 
   .filler {

@@ -3,7 +3,7 @@ import Navbar1 from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from '../Home/Home';
-import About from '../About/About';
+import Personal from '../PersonalProjects/Personal';
 import Sidesection from '../Sidesection/Sidesection';
 import Cv from "../Cv/Cv"
 import ScrollToTop from '../ScrollToTop';
@@ -20,9 +20,9 @@ function App() {
     {/* Routes */}
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
       <Route path ="/cv" element = {<Cv />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/projects/personal" element={<Personal />} />
     </Routes>
     </div>
      </div>
@@ -31,6 +31,3 @@ function App() {
 
 export default App;
 
-// "start": "react-scripts start",
-// on line 24 on package.json
-//"start": "node app.js",

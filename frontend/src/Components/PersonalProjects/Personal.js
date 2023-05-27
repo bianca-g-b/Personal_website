@@ -1,7 +1,7 @@
 import React from 'react';
-import './About.css';
+import './Personal.css';
 
-export default function About() {
+export default function Personal() {
     return(
         <div className="main-about-section">
         <h2 className='about-text-content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec enim diam vulputate ut pharetra. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Nunc scelerisque viverra mauris in aliquam sem fringilla ut. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Et malesuada fames ac turpis egestas sed. Sit amet aliquam id diam. Vitae nunc sed velit dignissim sodales. Duis at consectetur lorem donec. Ipsum dolor sit amet consectetur adipiscing elit. Proin libero nunc consequat interdum varius sit. Mattis vulputate enim nulla aliquet. Ipsum nunc aliquet bibendum enim facilisis gravida. Nec ullamcorper sit amet risus nullam eget felis. Facilisis magna etiam tempor orci. Arcu non sodales neque sodales ut etiam sit.
