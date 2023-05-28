@@ -8,6 +8,7 @@ import Sidesection from '../Sidesection/Sidesection';
 import Cv from "../Cv/Cv"
 import ScrollToTop from '../ScrollToTop';
 import Contact from '../Contact/Contact';
+import TeamProjects from '../TeamProjects/TeamProjects';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path ="/cv" element = {<Cv />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/projects/personal" element={<Personal />} />
+      <Route path="/projects/team" element={<TeamProjects />} />
     </Routes>
     </div>
      </div>

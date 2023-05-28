@@ -42,6 +42,12 @@
     font-weight: bold;
 }
 
+.form-button:hover {
+    background-color: #3587b6;
+    color: black;
+    border: 1px solid #3587b6;
+}
+
 input, textarea {
     border-radius: 5px;
     border: 1px solid rgb(126, 212, 213);

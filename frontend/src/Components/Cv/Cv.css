@@ -4,7 +4,6 @@
 
 .main-cv-area {
     display:flex;
-    /* background-color:blueviolet; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
