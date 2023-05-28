@@ -27,19 +27,19 @@ function Contact() {
   return (
     <form onSubmit={handleSubmit} className="form-full">
     <div className="form-area">
-      <div>
-        <label htmlFor="name">Name:</label>
+      <div className="form-component">
+        <label htmlFor="name">Name</label>
         <input type="text" id="name" required />
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
+      <div className="form-component">
+        <label htmlFor="email">Email</label>
         <input type="email" id="email" required />
       </div>
-      <div>
-        <label htmlFor="message">Message:</label>
+      <div className="form-component">
+        <label htmlFor="message">Message</label>
         <textarea id="message" required />
       </div>
-      <button type="submit">{status}</button>
+      <button type="submit" className="form-button">{status}</button>
       </div>
     </form>
   );
