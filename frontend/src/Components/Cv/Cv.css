@@ -76,7 +76,14 @@ h2,h3 {
     text-align: center;
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 1025px) {
+    .cv-profile-all {
+        margin-bottom: 10%;
+    }
+    }
+
+@media (max-width: 550px) {
     .cv-content {
       margin-bottom: 30%;
     }

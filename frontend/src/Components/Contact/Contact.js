@@ -27,7 +27,9 @@ function Contact() {
   return (
     <form onSubmit={handleSubmit} className="form-full">
     <div className="form-area">
+    <h2 className="contact-form-intro">Use this form to contact me:</h2>
       <div className="form-component">
+      
         <label htmlFor="name">Name</label>
         <input type="text" id="name" required />
       </div>
@@ -40,7 +42,9 @@ function Contact() {
         <textarea id="message" required />
       </div>
       <button type="submit" className="form-button">{status}</button>
+      <p className="email-reference">or send me an email at bianca@biancabuha.com</p>
       </div>
+      
     </form>
   );
 };

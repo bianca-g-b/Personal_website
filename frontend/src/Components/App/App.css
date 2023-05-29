@@ -4,14 +4,6 @@ body {
   background-attachment: fixed;
 }
 
-/*Make navebar stay on page even when scrolling down*/ 
-/* .navbar-all {
-  position: fixed;
-  top: 0;
-  width: 100%;
-} */
-
-/*Doesn't really change anything*/
 .app-section {
   position:absolute;
   height: 100%;
@@ -46,6 +38,5 @@ body {
   }
   }
 
-/*make footer element to be displayed when resolution is small*/
 
 

@@ -15,7 +15,7 @@ function Navbar1() {
         // sticky="top" to make the navbar disappear when scrolling down
         role="navigation">
             <Container fluid className="navbar-menu">
-            <Navbar.Brand style={{ color: '#8adbdb', fontSize: "45px"}}  >Bianca Buha</Navbar.Brand>
+            <Navbar.Brand style={{ color: '#8adbdb', fontSize: "45px", textShadow: "2px 2px 4px #000000"}}  >Bianca Buha</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll" style={{ color: 'black' }}>
             <div className="filler"></div>
@@ -26,8 +26,8 @@ function Navbar1() {
                 <Nav.Link as={NavLink} to="/" style={{ color: '#8adbdb' }}>HOME</Nav.Link>
                 <Nav.Link as={NavLink} to="/cv" style={{ color: '#8adbdb' }}>CV</Nav.Link>
                 <NavDropdown style={{ color: '#8adbdb' }} title="PROJECTS" id="navbarScrollingDropdown">
-                    <NavDropdown.Item as={NavLink} to="/projects/personal">Personal</NavDropdown.Item>
-                    <NavDropdown.Item as={NavLink} to="/projects/team">
+                    <NavDropdown.Item as={NavLink} to="/projects/individualprojects">Personal</NavDropdown.Item>
+                    <NavDropdown.Item as={NavLink} to="/projects/teamprojects">
                     School of Code Teams
                     </NavDropdown.Item>
                     {/* <NavDropdown.Item as={NavLink} to="/projects/project3">

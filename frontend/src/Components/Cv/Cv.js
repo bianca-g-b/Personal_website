@@ -83,8 +83,8 @@ employing these tools to develop robust and responsive applications.</li>
   <li>Weekly hackathons to implement the topics covered in the week, using Agile methodologies.</li>
 </ul>
 <br/>
-<h5>PROJECTS</h5>
-<h6>ONE WEEK TEAM PROJECT - Building an app in React that will help students with their learning</h6>
+<h4>PROJECTS</h4>
+<h5>ONE WEEK TEAM PROJECT - Building an app in React that will help students with their learning</h5>
 <ul>
   <li>The project was a collaborative effort where each member of the team made significant contributions</li>
   <li>Designed a quiz app to assist fellow bootcampers with testing their coding skills</li>
@@ -162,6 +162,7 @@ performances.</li>
 <div className="location-dates">
 <h5>George Enescu National University of Arts, Faculty of
 Theatre</h5>
+<h5>Iasi, Romania</h5>
 <h5>2007 - 2010</h5>
 </div>
 </div>

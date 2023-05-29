@@ -13,6 +13,9 @@
     font-family: Genos;
     font-size: 1.5rem;
     font-weight: bold;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .form-full {
@@ -55,6 +58,19 @@ input, textarea {
     color: black;
     width: 120%;
     font-weight: bold;
+}
+.message {
+    height: 150%;
+}
+
+label {
+    font-weight: normal;
+    margin-bottom: 1%;
+}
+
+.email-reference {
+    font-weight: normal;
+    margin-top: 4%;
 }
 
 @media (max-width: 500px) {

@@ -1,12 +1,13 @@
-img {
+.codetta-img {
     max-width: 100%;
     width: auto;
     height: auto;
     margin-bottom: 7%;
+    border: 1px solid rgb(126, 212, 213);;
 
 }
 
-p {
+.photo-title {
     font-size: 2em;
     color: rgb(126, 212, 213);
     font-family: Genos;
@@ -18,7 +19,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     margin-bottom: 5%;
     margin-top: 7%;
 }
@@ -47,9 +47,27 @@ p {
     text-shadow: 2px 2px 4px #000000;
 }
 
-  .codetta-repo {
+  .codetta-link {
     text-shadow: 2px 2px 4px #000000;
     font-size: 2rem;
   }
 
+  .codetta-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+
+  .links-title {
+    color:rgb(126, 212, 213);
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 650px) {
+    .retro {
+      margin-bottom: 17%;
+    }
+  }
  

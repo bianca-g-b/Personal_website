@@ -5,6 +5,7 @@
     flex-direction: row;
     padding: 0 1rem;
     color: rgb(126, 212, 213);
+    text-shadow: 2px 2px 4px #000000;
     font-family: Genos;
     font-size: 2rem;
     font-weight: 600;
@@ -24,10 +25,10 @@ h2 {
     .about-text-content  {
       margin-bottom: 50%;
     }
-    }
+}
 
 @media (max-height: 600px) {
     .about-text-content  {
         margin-bottom: 15%;
     }
-    }
+}

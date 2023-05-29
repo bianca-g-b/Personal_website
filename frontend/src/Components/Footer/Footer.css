@@ -8,6 +8,7 @@
   padding: 8px;
   text-align: center;
   border: 1px solid #364d4d;
+  height: 5%;
 }
 
 /*The sidebar element will ot be displayed on small screens*/
@@ -16,3 +17,27 @@
       display: none;
     }
     }
+
+@media (max-height: 930px) {
+  .footer {
+    height: 7%;
+  }
+}
+
+@media (max-height: 650px) {
+  .footer {
+    height: 8%;
+  }
+}
+
+@media (max-height: 530px) {
+  .footer {
+    height: 12%;
+  }
+}
+
+@media (max-height: 350px) {
+  .footer {
+    height: 20%;
+  }
+}
