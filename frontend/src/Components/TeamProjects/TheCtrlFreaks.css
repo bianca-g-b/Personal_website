@@ -1,0 +1,57 @@
+.ctrl-freaks {
+    margin-top: 29%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Genos;
+}
+
+.ctrl-freaks-description {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.ctrl-freaks {
+    margin-top: 29%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Genos;
+}
+
+.ctrl-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.ctrl-link {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 2rem;
+  }
+
+.ctrl-link:hover {
+    color: rgb(173, 240, 241);
+}
+
+.ctrl-img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-bottom: 7%;
+    border: 1px solid rgb(126, 212, 213);
+}
+
+.ctrl-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+
+@media (max-width: 650px) {
+    .wallet {
+      margin-bottom: 17%;
+    }
+  }

@@ -1,14 +1,15 @@
 import './App.css';
 import Navbar1 from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Home from '../Home/Home';
 import Personal from '../PersonalProjects/Personal';
 import Sidesection from '../Sidesection/Sidesection';
 import Cv from "../Cv/Cv"
 import ScrollToTop from '../ScrollToTop';
 import Contact from '../Contact/Contact';
-import TeamProjects from '../TeamProjects/TeamProjects';
+import CodettaStone from '../TeamProjects/CodettaStone.js';
+import TheCtrlFreaks from "../TeamProjects/TheCtrlFreaks.js"
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       <Route path ="/cv" element = {<Cv />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/projects/individualprojects" element={<Personal />} />
-      <Route path="/projects/teamprojects" element={<TeamProjects />} />
+      <Route path="/projects/codettastoneteam" element={<CodettaStone />} />
+      <Route path="/projects/thectrlfreaksteam" element={<TheCtrlFreaks />} />
     </Routes>
     </div>
      </div>

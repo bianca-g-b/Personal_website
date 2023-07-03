@@ -1,4 +1,4 @@
-import "./TeamProjects.css";
+import "./CodettaStone.css";
 import manifesto from "./Images/001_Manifesto.png";
 import figma from "./Images/002_Figjam.png";
 import trelloSprint from "./Images/Board_partial.png";
@@ -7,23 +7,23 @@ import registration from "./Images/Registration.png";
 import retro from "./Images/006_Retrospective.png";
 
 
-function TeamProjects() {
+function CodettaStone() {
 
     return (
-        <div className="all-projects">
+        <div className="main-project-container">
 
         <div className = "codetta-stone">
             <h1 className="team-name">Codetta Stone</h1>
-
-            <div className = "codetta-stone-description"></div>
-            <h3 className="team-description">
+            <h2 className="team-name project-brief-description">Building an App in React in one week - Group Project</h2>
+            <div className = "codetta-stone-description">
+            <h2 className="team-description">
             In our team, we embarked on an exciting journey to develop a React app aimed at assisting fellow bootcampers with their learning. Our vision was to create a quizzes app that would empower students to test and enhance their coding skills.<br/><br/>
             Throughout this one week project, we embraced agile principles and practices, ensuring our ability to swiftly adapt to changes. By leveraging the power of Git branching, we divided into smaller, focused teams, with each team responsible for crafting specific components. <br/><br/>
             This agile approach enabled us to work in parallel, efficiently tackling complex tasks and maintaining a steady stream of progress.
             Regular stand-up meetings and frequent communication facilitated seamless collaboration, enabling us to adapt and refine our strategies along the way.<br/><br/>
             The incorporation of Bootstrap's versatile navbar and sidebar components provided intuitive navigation and effortless organization. 
             By harnessing the power of React Router DOM, we skillfully created routes for diverse components, ensuring smooth and intuitive transitions between app sections.
-            </h3>
+            </h2>
             <div className="codetta-links">
             <p className="links-title">Links:</p>
             <a className="codetta-link" href="https://github.com/SchoolOfCode/bc14_w7_project-frontend-codettastone" target="blank">Codetta Stone GitHub Repository
@@ -56,10 +56,11 @@ function TeamProjects() {
 
             </div>
         </div>
+        </div>
 
 
         </div>
     )
 }
 
-export default TeamProjects;
+export default CodettaStone;

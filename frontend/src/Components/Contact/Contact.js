@@ -42,7 +42,7 @@ function Contact() {
         <textarea id="message" required />
       </div>
       <button type="submit" className="form-button">{status}</button>
-      <p className="email-reference">or send me an email at bianca@biancabuha.com</p>
+      <h4 className="email-reference">or send me an email at bianca@biancabuha.com</h4>
       </div>
       
     </form>

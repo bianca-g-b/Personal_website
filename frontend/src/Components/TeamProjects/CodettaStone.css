@@ -1,10 +1,15 @@
+.codetta-stone-description {
+  margin-right: 2%;
+  margin-left: 2%;
+  
+}
+
 .codetta-img {
     max-width: 100%;
     width: auto;
     height: auto;
     margin-bottom: 7%;
-    border: 1px solid rgb(126, 212, 213);;
-
+    border: 1px solid rgb(126, 212, 213);
 }
 
 .photo-title {
@@ -42,15 +47,18 @@
 .team-description {
     text-align: justify;
     color:rgb(126, 212, 213);
-    font-size: 2em;
     margin-bottom: 6%;
     text-shadow: 2px 2px 4px #000000;
 }
 
-  .codetta-link {
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 2rem;
-  }
+.codetta-link {
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 2rem;
+}
+
+.codetta-link:hover {
+  color: rgb(126, 212, 213);
+}
 
   .codetta-links {
     display: flex;

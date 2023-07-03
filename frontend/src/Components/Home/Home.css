@@ -11,9 +11,11 @@
     font-weight: 600;
     margin-top: 35%;
     margin-left: 2%;
-    text-align: justify;
-    
-    
+    text-align: justify; 
+}
+
+.about-me {
+    margin-right: 30%;
 }
 
 h2 {

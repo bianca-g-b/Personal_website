@@ -4,19 +4,19 @@ import "./Home.css";
 export default function Home() {
     return(
     <div className="short-presentation">
-        <h2 className="about-text-content">Hello, my name is Bianca Buha.
+        <h2 className="about-text-content about-me">Hello, my name is Bianca Buha.
         <br/><br/>
         I am an trainee software developer, with a 
-        <br/>background in acting.
+        background in acting.
         <br/><br/>
-        I am currently studying at the School of Code.
+        I am a recent graduate of the School of Code Bootcamp.
         <br/><br/>
-        So far, I've covered JavaScript, HTML, CSS, DOM, UI/UX,
-        <br/>
-        REACT, testing in REACT,  
-        Node.js and  testing in Jest and Playwright.
+        During the bootcamp, I studied JavaScript, HTML, CSS, DOM, UI/UX,
+        Jest, Playwright, React and React Testing Library,  
+        Node.js, Express, PostgreSQL.
         <br/><br/>
-        I also have experience with Python.  
+        I also have knowledge of Python,
+        gained from self-paced courses, prior to the bootcamp.  
         </h2>
     </div>
     )

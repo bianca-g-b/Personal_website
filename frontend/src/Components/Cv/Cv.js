@@ -32,7 +32,7 @@ function Cv() {
 <h3 className="section-title">PROFILE</h3>
 <br/>
 <p>
-I am a passionate junior software developer, currently enrolled in the School of Code Bootcamp.
+I am a passionate junior software developer, freshly graduated from the School of Code Bootcamp.
 I am excited to join a software development team and apply my new skills to real-world projects.
 With a strong drive for problem-solving and a commitment to continuous learning, I'm eager to collaborate with
 fellow professionals to create innovative software solutions.
