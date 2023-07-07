@@ -15,7 +15,7 @@ function Navbar1() {
         // sticky="top" to make the navbar disappear when scrolling down
         role="navigation">
             <Container fluid className="navbar-menu">
-            <Navbar.Brand style={{ color: '#8adbdb', fontSize: "45px", textShadow: "2px 2px 4px #000000"}}  >Bianca Buha</Navbar.Brand>
+            <Navbar.Brand as={NavLink} to="/" style={{ color: 'rgb(173, 240, 241)', fontSize: "45px", textShadow: "2px 2px 4px #000000"}}  >Bianca Buha</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll" style={{ color: 'black' }}>
             <div className="filler"></div>

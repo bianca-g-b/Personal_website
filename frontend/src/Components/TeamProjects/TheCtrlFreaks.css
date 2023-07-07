@@ -26,7 +26,8 @@
 }
 
 .ctrl-link {
-    text-shadow: 2px 2px 4px #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 2rem;
   }
 
@@ -39,7 +40,7 @@
     width: auto;
     height: auto;
     margin-bottom: 7%;
-    border: 1px solid rgb(126, 212, 213);
+    border: 1px solid rgb(173, 240, 241);
 }
 
 .ctrl-images {

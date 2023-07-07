@@ -9,15 +9,15 @@
     width: auto;
     height: auto;
     margin-bottom: 7%;
-    border: 1px solid rgb(126, 212, 213);
+    border: 1px solid rgb(173, 240, 241);
 }
 
 .photo-title {
     font-size: 2em;
-    color: rgb(126, 212, 213);
+    color: rgb(173, 240, 241);
     font-family: Genos;
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .codetta-stone-images {
@@ -38,26 +38,25 @@
 
 .team-name {
     text-align: center;
-    color:rgb(126, 212, 213);
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
     margin-bottom: 4%;
-
+    color: rgb(173, 240, 241);
 }
 
 .team-description {
     text-align: justify;
-    color:rgb(126, 212, 213);
+    color: rgb(173, 240, 241);
     margin-bottom: 6%;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .codetta-link {
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 2rem;
 }
 
 .codetta-link:hover {
-  color: rgb(126, 212, 213);
+  color: rgb(173, 240, 241);
 }
 
   .codetta-links {
@@ -67,7 +66,7 @@
   }
 
   .links-title {
-    color:rgb(126, 212, 213);
+    color: rgb(173, 240, 241);
     text-shadow: 2px 2px 4px #000000;
     font-size: 2rem;
     padding: 0 1rem;

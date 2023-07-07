@@ -84,8 +84,9 @@
     color: #3587b6 !important;
   }
   .navbar-brand:hover{
-    color: #3587b6 !important;
-    text-shadow: 2px 2px 4px #000000;
+    color: #000000 !important;
+    text-shadow:none !important;
+    font-weight: bold;
   }
  
     @media (max-width: 1750px) {

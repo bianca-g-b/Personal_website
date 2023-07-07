@@ -12,7 +12,7 @@ function Cv() {
         
         <div className="cv-intro content-flex">
         <h2>Bianca Buha</h2>
-<h4>Junior Software Developer</h4>
+<h3>Junior Software Developer</h3>
 <br/>
 <p>bianca@biancabuha.com</p>
 <p>Milton Keynes, UK (willing to relocate)</p>
@@ -84,6 +84,7 @@ employing these tools to develop robust and responsive applications.</li>
 </ul>
 <br/>
 <h4>PROJECTS</h4>
+<h5>Codetta Stone Team</h5>
 <h5>ONE WEEK TEAM PROJECT - Building an app in React that will help students with their learning</h5>
 <ul>
   <li>The project was a collaborative effort where each member of the team made significant contributions</li>

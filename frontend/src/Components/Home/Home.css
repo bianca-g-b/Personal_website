@@ -4,8 +4,8 @@
     align-items: flex-start;
     flex-direction: row;
     padding: 0 1rem;
-    color: rgb(126, 212, 213);
-    text-shadow: 2px 2px 4px #000000;
+    /* color: rgb(126, 212, 213);
+    text-shadow: 2px 2px 4px #000000; */
     font-family: Genos;
     font-size: 2rem;
     font-weight: 600;
