@@ -151,7 +151,9 @@
         background-color: var(--darkerBlue) !important;
         color: black !important;
       }
-      .dropdown-item:hover {
+      .dropdown-item:hover,
+      .dropdown-item.active {
+        background-color: var(--darkerBlue) !important;
         color: black !important;
         font-weight: bold !important; 
       }
@@ -163,6 +165,10 @@
         background-color: var(--darkerBlue) !important;
       }
       .nav-link:hover {
+        color: black !important;
+        font-weight: bold;
+      }
+      .nav-link.active {
         color: black !important;
         font-weight: bold;
       }

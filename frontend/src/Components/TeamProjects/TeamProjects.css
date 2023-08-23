@@ -31,16 +31,16 @@
     }
 }
 
-@media (max-width: 1850px) {
+@media (max-width: 1550px) {
     .project-title {
         font-size: 2rem;
     }
     .project-description {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 }
 
-@media (max-width: 1770px) {
+@media (max-width: 1250px) {
     .project-title {
         font-size: 1.7rem;
     }
@@ -49,17 +49,67 @@
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1025px) {
     .project-title {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .project-description {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
+}
+
+@media (max-width: 950px) {
     .dictionary-img {
         width: 85%;
     }
-    
+    .project-links {
+        margin-left: 6%;
+    }
+    .projects-links-title {
+        font-size: 1.6rem;
+    }
+    .app-link {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .project-title {
+        font-size: 1.7rem;
+    }
+    .project-description {
+        font-size: 1.2rem;
+    }
+    .projects-links-title {
+        font-size: 1.4rem;
+    }
+    .app-link {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .project-title {
+        font-size: 1.6rem;
+    }
+    .project-description {
+        width: 85%;
+    }
+    .projects-links-title {
+        font-size: 1.3rem;
+    }
+    .app-link {
+        font-size: 1.1rem;
+    }
+    .dictionary-app {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 450px) {
+    .project-title {
+        font-size: 1.4rem;
+    }
 }
 
 

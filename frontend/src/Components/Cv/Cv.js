@@ -89,7 +89,19 @@ employing these tools to develop robust and responsive applications.</li>
   <li>Weekly hackathons to implement the topics covered in the week, using Agile methodologies.</li>
 </ul>
 <br/>
-<h4>PROJECTS</h4>
+<h4>TEAM PROJECTS</h4>
+<br/>
+<h5>The CTRL FREAKS Team</h5>
+<h5>Wise Wallet Kitchen - Full-stack app built in 5 weeks following Agile priciples</h5>
+<h5>Official website: https://wisewalletkitchen.netlify.app</h5>
+<ul>
+  <li>Designed and built a full-stack app that allows users to find recipes based on their budget requirements.</li>
+  <li>One of the main features of the app is the recipes section, where people can find recipes depending on their weekly budget</li>
+  <li>Another important feature of the app is the wallet section, which shows the users how much they saved per week by using our recipe plans</li>
+  <li>We used Trello, Figma and Canva for planning and managing the project, and Agile methodologies for working as a team</li>
+  <li>Tech Stack: JavaScript, React, CSS, JSON, Supabase, Jest</li>
+</ul>
+<br/>
 <h5>Codetta Stone Team</h5>
 <h5>ONE WEEK TEAM PROJECT - Building an app in React that will help students with their learning</h5>
 <ul>
