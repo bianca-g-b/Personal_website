@@ -1,3 +1,8 @@
+:root {
+    --darkerBlue:#8adbdb;
+    --lightBlue: #BCFEFF;
+  }
+
 .form-area {
     display: flex;
     flex-direction: column;
@@ -7,7 +12,7 @@
     margin-bottom: 2%;
     padding: 10%;
     background-color: black;
-    color: rgb(126, 212, 213);
+    color: var(--darkerBlue);
     border-radius: 25px;
     width: 60%;
     font-family: Genos;
@@ -16,6 +21,7 @@
     height: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-right: 15%;
 }
 
 .form-full {
@@ -39,22 +45,22 @@
 
 .form-button {
     color:black;
-    background-color: rgb(126, 212, 213);
+    background-color: var(--darkerBlue);
     border-radius: 5px;
-    border: 1px solid #8adbdb;
+    border: 1px solid var(--darkerBlue);
     font-weight: bold;
 }
 
 .form-button:hover {
-    background-color: #3587b6;
-    color: black;
-    border: 1px solid #3587b6;
+    background-color: black;
+    color: var(--lightBlue);
+    border: 1px solid var(--darkerBlue);
 }
 
 input, textarea {
     border-radius: 5px;
-    border: 1px solid rgb(126, 212, 213);
-    background-color: rgb(126, 212, 213);
+    border: 1px solid var(--darkerBlue);
+    background-color: var(--darkerBlue);
     color: black;
     width: 120%;
     font-weight: bold;
@@ -81,7 +87,27 @@ label {
     }
 }
 
+/* @media (max-width: 600px) {
+    .form-area {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 80%;
+    }
+} */
+
 @media (max-width: 600px) {
+    .form-area {
+        width: 95%;
+        margin-bottom: 25%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .form-full {
+        margin-top: 35%;
+    }
     .form-area {
         margin-left: 1%;
         margin-right: 1%;
@@ -89,8 +115,9 @@ label {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
     .form-area {
-        width: 95%;
+        width: 60%;
+        margin-bottom: 15%;
     }
 }

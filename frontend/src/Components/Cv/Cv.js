@@ -7,7 +7,13 @@ function Cv() {
     
     return (
         <div className="main-cv-area">
-        <div className="empty-area"></div>
+        <div className="empty-area">
+          <button className="download-cv-button">
+          <a className="download-cv-link"
+          href="./Bianca_Buha_CV.pdf"
+          download="Bianca_Buha_CV.pdf" >
+          Download CV</a></button>
+        </div>
         <div className="cv-profile-all">
         
         <div className="cv-intro content-flex">

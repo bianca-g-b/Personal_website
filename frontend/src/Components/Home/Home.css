@@ -1,21 +1,31 @@
+:root {
+    --lightBlue: #BCFEFF;
+  }
+
 .short-presentation {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
     padding: 0 1rem;
-    /* color: rgb(126, 212, 213);
-    text-shadow: 2px 2px 4px #000000; */
     font-family: Genos;
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 35%;
+    margin-top: 40%;
     margin-left: 2%;
     text-align: justify; 
 }
 
-.about-me {
-    margin-right: 30%;
+.about-text-content {
+    display: flex;
+    margin-top: 3%;
+    color: var(--lightBlue);
+    /* color: rgb(173, 240, 241); */
+    /* color: rgb(188, 254, 255); */
+    /* color: rgb(204, 254, 251); */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: justify;
+    margin-bottom: 10%;
 }
 
 h2 {
@@ -32,5 +42,23 @@ h2 {
 @media (max-height: 600px) {
     .about-text-content  {
         margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .short-presentation  {
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .short-presentation  {
+        margin-top: 45%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .short-presentation  {
+        margin-top: 50%;
     }
 }

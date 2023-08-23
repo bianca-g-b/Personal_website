@@ -1,0 +1,65 @@
+:root {
+    --lightBlue: #BCFEFF;
+  }
+
+.team-projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    margin-bottom: 10%;
+}
+
+.ctrl-freaks, 
+.codetta-stone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.team-projects-title {
+    text-align: center;
+    color: var(--lightBlue);
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    margin-bottom: 4%;
+}
+
+
+@media (max-width: 900px) {
+    .team-projects-container  {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width: 1850px) {
+    .project-title {
+        font-size: 2rem;
+    }
+    .project-description {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1770px) {
+    .project-title {
+        font-size: 1.7rem;
+    }
+    .project-description {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .project-title {
+        font-size: 1.5rem;
+    }
+    .project-description {
+        font-size: 1rem;
+    }
+    .dictionary-img {
+        width: 85%;
+    }
+    
+}
+
+

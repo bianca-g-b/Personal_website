@@ -26,16 +26,10 @@ function Navbar1() {
                 <Nav.Link as={NavLink} to="/" style={{ color: '#8adbdb' }}>HOME</Nav.Link>
                 <Nav.Link as={NavLink} to="/cv" style={{ color: '#8adbdb' }}>CV</Nav.Link>
                 <NavDropdown style={{ color: '#8adbdb' }} title="PROJECTS" id="navbarScrollingDropdown">
-                    <NavDropdown.Item as={NavLink} to="/projects/individualprojects">Personal</NavDropdown.Item>
-                    <NavDropdown.Item as={NavLink} to="/projects/thectrlfreaksteam">
-                    The Ctrl Freaks Team
+                    <NavDropdown.Item as={NavLink} to="/projects/individual">Individual Projects</NavDropdown.Item>
+                    <NavDropdown.Item as={NavLink} to="/projects/team">
+                    Team Projects
                     </NavDropdown.Item>
-                    <NavDropdown.Item as={NavLink} to="/projects/codettastoneteam">
-                    Codetta Stone Team
-                    </NavDropdown.Item>
-                    {/* <NavDropdown.Item as={NavLink} to="/projects/project3">
-                    Project 3
-                    </NavDropdown.Item> */}
                 </NavDropdown>
                 <Nav.Link as={NavLink} to="/contact" style={{ color: '#8adbdb' }}>CONTACT</Nav.Link>
         </Nav>
