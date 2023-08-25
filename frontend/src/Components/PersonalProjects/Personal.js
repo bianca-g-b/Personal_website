@@ -28,7 +28,7 @@ export default function PersonalProjects() {
 
         <div className="personal-website">
             <h2 className="project-title">This website</h2>
-            <h3 className="project-description">Built with React.js, Node.js, Express</h3>
+            <h3 className="project-description">Built with React.js</h3>
             <div className="personal-website-image-container">
                 <img className = "dictionary-img task-light" src={website} alt="Personal Website"></img>
             </div>
