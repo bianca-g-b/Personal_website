@@ -59,7 +59,9 @@
 }
 
 @media (max-width: 950px) {
-    .dictionary-img {
+    .dictionary-img,
+    .task-manager-image-container:hover .task-dark 
+    {
         width: 85%;
     }
     .project-links {

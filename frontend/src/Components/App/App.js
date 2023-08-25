@@ -16,7 +16,7 @@ function App() {
       <ScrollToTop />
       <Navbar1 />
       <Sidesection />
-      <Footer />
+      
        <div className="static-panel">
     {/* Routes */}
     <Routes>
@@ -26,6 +26,7 @@ function App() {
       <Route path="/projects/individual" element={<PersonalProjects />} />
       <Route path="/projects/team" element={<TeamProjects />} />
     </Routes>
+    <Footer />
     </div>
      </div>
   );
