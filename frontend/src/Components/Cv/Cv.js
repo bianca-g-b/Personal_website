@@ -10,7 +10,7 @@ function Cv() {
         <div className="empty-area">
           <button className="download-cv-button">
           <a className="download-cv-link"
-          href="./Bianca_Buha_CV.pdf"
+          href="/Bianca_Buha_CV.pdf"
           download="Bianca_Buha_CV.pdf" >
           Download CV</a></button>
         </div>
